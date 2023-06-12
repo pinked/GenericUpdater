@@ -1,0 +1,1 @@
+﻿APP;300;https://example.com/setup-v300.exe;
