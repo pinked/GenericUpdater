@@ -1,2 +1,2 @@
->APP;300;https://example.com/setup-v300.exe;
->App2;102;https://example.com/app2-setup-v102.exe;
+>APP.exe;300;https://example.com/setup-v300.exe;
+>App2.msi;102;https://example.com/app2-setup-v102.exe;
