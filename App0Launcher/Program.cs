@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Diagnostics;
 using System.IO;
 using System.Text;
@@ -19,13 +19,10 @@ namespace App1Startup
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            /// check this file path, for startup
-            /// if in local, then run
-            /// else: run setup file and move this file
             string DS = Path.DirectorySeparatorChar.ToString();
             // string currentLocation = Application.ExecutablePath;
 
-            /// run setup file
+            /// run setup files
             try
             {
                 string setup_path = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) 
