@@ -20,9 +20,10 @@ To use the Generic Application Updater, follow these steps:
 Sample config text file that should be uploaded and kept updated.
 
 ```
-APP;300;https://example.com/setup-v300.exe;
+>APP.exe;300;https://example.com/setup-v300.exe;
+>App2.msi;102;https://example.com/app2-setup-v102.exe;
 ```
-APP is the name of application, 300 is a sample version number, and third valua is the URL to latest install file.
+APP is the name of application, 300 is a sample version number, and third value is the URL for the latest install file.
 
 ## Usage
 Once the Generic Application Updater is properly installed and configured, it will automatically check for updates and perform the installation process during system startup. Users will have the latest version of the application without the need for manual updates.
